@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD7F093924133CC100ED2C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F093824133CC100ED2C4E /* AppDelegate.swift */; };
+		BD7F093B24133CC100ED2C4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F093A24133CC100ED2C4E /* SceneDelegate.swift */; };
+		BD7F093D24133CC100ED2C4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F093C24133CC100ED2C4E /* ViewController.swift */; };
+		BD7F094024133CC100ED2C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7F093E24133CC100ED2C4E /* Main.storyboard */; };
+		BD7F094224133CC300ED2C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7F094124133CC300ED2C4E /* Assets.xcassets */; };
+		BD7F094524133CC300ED2C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7F094324133CC300ED2C4E /* LaunchScreen.storyboard */; };
+		BD7F095024133CC300ED2C4E /* Mitsein_paymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F094F24133CC300ED2C4E /* Mitsein_paymentTests.swift */; };
+		BD7F095B24133CC300ED2C4E /* Mitsein_paymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F095A24133CC300ED2C4E /* Mitsein_paymentUITests.swift */; };
+		BD7F098824133E4D00ED2C4E /* ChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F098224133E4D00ED2C4E /* ChargeViewController.swift */; };
+		BD7F098924133E4D00ED2C4E /* PayFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F098324133E4D00ED2C4E /* PayFormViewController.swift */; };
+		BD7F098A24133E4D00ED2C4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F098424133E4D00ED2C4E /* HomeViewController.swift */; };
+		BD7F098B24133E4D00ED2C4E /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F098524133E4D00ED2C4E /* QRScannerController.swift */; };
+		BD7F098C24133E4D00ED2C4E /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F098624133E4D00ED2C4E /* QRCodeViewController.swift */; };
+		BD7F098D24133E4D00ED2C4E /* TransferFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F098724133E4D00ED2C4E /* TransferFormViewController.swift */; };
+		BD7F0991241358D200ED2C4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F0990241358D200ED2C4E /* LoginViewController.swift */; };
+		BD7F0993241358E200ED2C4E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F0992241358E200ED2C4E /* SignupViewController.swift */; };
+		BDC40E12241DD0D700A1A22A /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC40E11241DD0D700A1A22A /* Transaction.swift */; };
+		BDC40E14241DD2E500A1A22A /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC40E13241DD2E500A1A22A /* APIRequests.swift */; };
+		BDC40E1624246CD100A1A22A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC40E1524246CD100A1A22A /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD7F094C24133CC300ED2C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD7F092D24133CC100ED2C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD7F093424133CC100ED2C4E;
+			remoteInfo = Mitsein_payment;
+		};
+		BD7F095724133CC300ED2C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD7F092D24133CC100ED2C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD7F093424133CC100ED2C4E;
+			remoteInfo = Mitsein_payment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD7F093524133CC100ED2C4E /* Mitsein_payment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mitsein_payment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7F093824133CC100ED2C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD7F093A24133CC100ED2C4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD7F093C24133CC100ED2C4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD7F093F24133CC100ED2C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD7F094124133CC300ED2C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD7F094424133CC300ED2C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD7F094624133CC300ED2C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7F094B24133CC300ED2C4E /* Mitsein_paymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mitsein_paymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7F094F24133CC300ED2C4E /* Mitsein_paymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mitsein_paymentTests.swift; sourceTree = "<group>"; };
+		BD7F095124133CC300ED2C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7F095624133CC300ED2C4E /* Mitsein_paymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mitsein_paymentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7F095A24133CC300ED2C4E /* Mitsein_paymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mitsein_paymentUITests.swift; sourceTree = "<group>"; };
+		BD7F095C24133CC300ED2C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7F098224133E4D00ED2C4E /* ChargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeViewController.swift; sourceTree = "<group>"; };
+		BD7F098324133E4D00ED2C4E /* PayFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayFormViewController.swift; sourceTree = "<group>"; };
+		BD7F098424133E4D00ED2C4E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BD7F098524133E4D00ED2C4E /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		BD7F098624133E4D00ED2C4E /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		BD7F098724133E4D00ED2C4E /* TransferFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferFormViewController.swift; sourceTree = "<group>"; };
+		BD7F0990241358D200ED2C4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD7F0992241358E200ED2C4E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		BDC40E11241DD0D700A1A22A /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		BDC40E13241DD2E500A1A22A /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		BDC40E1524246CD100A1A22A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD7F093224133CC100ED2C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7F094824133CC300ED2C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7F095324133CC300ED2C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD7F092C24133CC100ED2C4E = {
+			isa = PBXGroup;
+			children = (
+				BD7F093724133CC100ED2C4E /* Mitsein_payment */,
+				BD7F094E24133CC300ED2C4E /* Mitsein_paymentTests */,
+				BD7F095924133CC300ED2C4E /* Mitsein_paymentUITests */,
+				BD7F093624133CC100ED2C4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD7F093624133CC100ED2C4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD7F093524133CC100ED2C4E /* Mitsein_payment.app */,
+				BD7F094B24133CC300ED2C4E /* Mitsein_paymentTests.xctest */,
+				BD7F095624133CC300ED2C4E /* Mitsein_paymentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD7F093724133CC100ED2C4E /* Mitsein_payment */ = {
+			isa = PBXGroup;
+			children = (
+				BD7F098224133E4D00ED2C4E /* ChargeViewController.swift */,
+				BD7F098424133E4D00ED2C4E /* HomeViewController.swift */,
+				BD7F098324133E4D00ED2C4E /* PayFormViewController.swift */,
+				BD7F098624133E4D00ED2C4E /* QRCodeViewController.swift */,
+				BD7F098524133E4D00ED2C4E /* QRScannerController.swift */,
+				BD7F098724133E4D00ED2C4E /* TransferFormViewController.swift */,
+				BD7F093824133CC100ED2C4E /* AppDelegate.swift */,
+				BD7F093A24133CC100ED2C4E /* SceneDelegate.swift */,
+				BD7F093C24133CC100ED2C4E /* ViewController.swift */,
+				BD7F093E24133CC100ED2C4E /* Main.storyboard */,
+				BD7F094124133CC300ED2C4E /* Assets.xcassets */,
+				BD7F094324133CC300ED2C4E /* LaunchScreen.storyboard */,
+				BD7F094624133CC300ED2C4E /* Info.plist */,
+				BD7F0990241358D200ED2C4E /* LoginViewController.swift */,
+				BD7F0992241358E200ED2C4E /* SignupViewController.swift */,
+				BDC40E11241DD0D700A1A22A /* Transaction.swift */,
+				BDC40E13241DD2E500A1A22A /* APIRequests.swift */,
+				BDC40E1524246CD100A1A22A /* ProfileViewController.swift */,
+			);
+			path = Mitsein_payment;
+			sourceTree = "<group>";
+		};
+		BD7F094E24133CC300ED2C4E /* Mitsein_paymentTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD7F094F24133CC300ED2C4E /* Mitsein_paymentTests.swift */,
+				BD7F095124133CC300ED2C4E /* Info.plist */,
+			);
+			path = Mitsein_paymentTests;
+			sourceTree = "<group>";
+		};
+		BD7F095924133CC300ED2C4E /* Mitsein_paymentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD7F095A24133CC300ED2C4E /* Mitsein_paymentUITests.swift */,
+				BD7F095C24133CC300ED2C4E /* Info.plist */,
+			);
+			path = Mitsein_paymentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD7F093424133CC100ED2C4E /* Mitsein_payment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7F095F24133CC300ED2C4E /* Build configuration list for PBXNativeTarget "Mitsein_payment" */;
+			buildPhases = (
+				BD7F093124133CC100ED2C4E /* Sources */,
+				BD7F093224133CC100ED2C4E /* Frameworks */,
+				BD7F093324133CC100ED2C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mitsein_payment;
+			productName = Mitsein_payment;
+			productReference = BD7F093524133CC100ED2C4E /* Mitsein_payment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD7F094A24133CC300ED2C4E /* Mitsein_paymentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7F096224133CC300ED2C4E /* Build configuration list for PBXNativeTarget "Mitsein_paymentTests" */;
+			buildPhases = (
+				BD7F094724133CC300ED2C4E /* Sources */,
+				BD7F094824133CC300ED2C4E /* Frameworks */,
+				BD7F094924133CC300ED2C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD7F094D24133CC300ED2C4E /* PBXTargetDependency */,
+			);
+			name = Mitsein_paymentTests;
+			productName = Mitsein_paymentTests;
+			productReference = BD7F094B24133CC300ED2C4E /* Mitsein_paymentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD7F095524133CC300ED2C4E /* Mitsein_paymentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7F096524133CC300ED2C4E /* Build configuration list for PBXNativeTarget "Mitsein_paymentUITests" */;
+			buildPhases = (
+				BD7F095224133CC300ED2C4E /* Sources */,
+				BD7F095324133CC300ED2C4E /* Frameworks */,
+				BD7F095424133CC300ED2C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD7F095824133CC300ED2C4E /* PBXTargetDependency */,
+			);
+			name = Mitsein_paymentUITests;
+			productName = Mitsein_paymentUITests;
+			productReference = BD7F095624133CC300ED2C4E /* Mitsein_paymentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD7F092D24133CC100ED2C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Matias Mingo Seguel";
+				TargetAttributes = {
+					BD7F093424133CC100ED2C4E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BD7F094A24133CC300ED2C4E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD7F093424133CC100ED2C4E;
+					};
+					BD7F095524133CC300ED2C4E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD7F093424133CC100ED2C4E;
+					};
+				};
+			};
+			buildConfigurationList = BD7F093024133CC100ED2C4E /* Build configuration list for PBXProject "Mitsein_payment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD7F092C24133CC100ED2C4E;
+			productRefGroup = BD7F093624133CC100ED2C4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD7F093424133CC100ED2C4E /* Mitsein_payment */,
+				BD7F094A24133CC300ED2C4E /* Mitsein_paymentTests */,
+				BD7F095524133CC300ED2C4E /* Mitsein_paymentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD7F093324133CC100ED2C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7F094524133CC300ED2C4E /* LaunchScreen.storyboard in Resources */,
+				BD7F094224133CC300ED2C4E /* Assets.xcassets in Resources */,
+				BD7F094024133CC100ED2C4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7F094924133CC300ED2C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7F095424133CC300ED2C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD7F093124133CC100ED2C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7F093D24133CC100ED2C4E /* ViewController.swift in Sources */,
+				BD7F098924133E4D00ED2C4E /* PayFormViewController.swift in Sources */,
+				BD7F0993241358E200ED2C4E /* SignupViewController.swift in Sources */,
+				BDC40E14241DD2E500A1A22A /* APIRequests.swift in Sources */,
+				BDC40E1624246CD100A1A22A /* ProfileViewController.swift in Sources */,
+				BD7F098C24133E4D00ED2C4E /* QRCodeViewController.swift in Sources */,
+				BD7F093924133CC100ED2C4E /* AppDelegate.swift in Sources */,
+				BDC40E12241DD0D700A1A22A /* Transaction.swift in Sources */,
+				BD7F098B24133E4D00ED2C4E /* QRScannerController.swift in Sources */,
+				BD7F098824133E4D00ED2C4E /* ChargeViewController.swift in Sources */,
+				BD7F093B24133CC100ED2C4E /* SceneDelegate.swift in Sources */,
+				BD7F098A24133E4D00ED2C4E /* HomeViewController.swift in Sources */,
+				BD7F0991241358D200ED2C4E /* LoginViewController.swift in Sources */,
+				BD7F098D24133E4D00ED2C4E /* TransferFormViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7F094724133CC300ED2C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7F095024133CC300ED2C4E /* Mitsein_paymentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7F095224133CC300ED2C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7F095B24133CC300ED2C4E /* Mitsein_paymentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD7F094D24133CC300ED2C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD7F093424133CC100ED2C4E /* Mitsein_payment */;
+			targetProxy = BD7F094C24133CC300ED2C4E /* PBXContainerItemProxy */;
+		};
+		BD7F095824133CC300ED2C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD7F093424133CC100ED2C4E /* Mitsein_payment */;
+			targetProxy = BD7F095724133CC300ED2C4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD7F093E24133CC100ED2C4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD7F093F24133CC100ED2C4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD7F094324133CC300ED2C4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD7F094424133CC300ED2C4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD7F095D24133CC300ED2C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD7F095E24133CC300ED2C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD7F096024133CC300ED2C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mitsein_payment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MTS.Mitsein-payment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD7F096124133CC300ED2C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mitsein_payment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MTS.Mitsein-payment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD7F096324133CC300ED2C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mitsein_paymentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MTS.Mitsein-paymentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitsein_payment.app/Mitsein_payment";
+			};
+			name = Debug;
+		};
+		BD7F096424133CC300ED2C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mitsein_paymentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MTS.Mitsein-paymentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitsein_payment.app/Mitsein_payment";
+			};
+			name = Release;
+		};
+		BD7F096624133CC300ED2C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mitsein_paymentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MTS.Mitsein-paymentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mitsein_payment;
+			};
+			name = Debug;
+		};
+		BD7F096724133CC300ED2C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Mitsein_paymentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MTS.Mitsein-paymentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mitsein_payment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD7F093024133CC100ED2C4E /* Build configuration list for PBXProject "Mitsein_payment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7F095D24133CC300ED2C4E /* Debug */,
+				BD7F095E24133CC300ED2C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7F095F24133CC300ED2C4E /* Build configuration list for PBXNativeTarget "Mitsein_payment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7F096024133CC300ED2C4E /* Debug */,
+				BD7F096124133CC300ED2C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7F096224133CC300ED2C4E /* Build configuration list for PBXNativeTarget "Mitsein_paymentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7F096324133CC300ED2C4E /* Debug */,
+				BD7F096424133CC300ED2C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7F096524133CC300ED2C4E /* Build configuration list for PBXNativeTarget "Mitsein_paymentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7F096624133CC300ED2C4E /* Debug */,
+				BD7F096724133CC300ED2C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD7F092D24133CC100ED2C4E /* Project object */;
+}
