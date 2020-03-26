@@ -364,12 +364,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N63-HT-ux2">
-                                <rect key="frame" x="174" y="526" width="192" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Private Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gp1-Ox-2Te">
                                 <rect key="frame" x="32" y="531" width="86" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -443,10 +437,9 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="amount" destination="EOa-Tt-8pU" id="IwT-SL-mN8"/>
-                        <outlet property="private_key" destination="N63-HT-ux2" id="UYa-9X-T6Z"/>
-                        <outlet property="recipient_address" destination="yi9-a6-1ds" id="Vly-eg-UNp"/>
-                        <outlet property="sender_address" destination="Sh1-Bm-Yxj" id="J7v-Jd-CYs"/>
+                        <outlet property="Amount" destination="EOa-Tt-8pU" id="7tk-U8-apY"/>
+                        <outlet property="Recipient_address" destination="yi9-a6-1ds" id="gFS-r2-sjk"/>
+                        <outlet property="Sender_address" destination="Sh1-Bm-Yxj" id="lgc-Ys-0tl"/>
                         <segue destination="H1F-a7-zwJ" kind="showDetail" identifier="HomeViewSegue" id="whj-y0-OVb"/>
                     </connections>
                 </viewController>
@@ -499,7 +492,7 @@
                                     <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="Account:" destination="H1F-a7-zwJ" eventType="touchUpInside" id="6Kk-f9-BmD"/>
+                                    <action selector="Profie:" destination="H1F-a7-zwJ" eventType="touchUpInside" id="g24-UG-AVd"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mitsein_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ral-nH-fLI">
@@ -559,8 +552,8 @@
                     <connections>
                         <segue destination="BCH-t6-uBp" kind="showDetail" identifier="PayViewSegue" id="03S-UM-BXi"/>
                         <segue destination="X03-3o-Ymi" kind="showDetail" identifier="ChargeViewSegue" id="LBh-Dq-p9X"/>
-                        <segue destination="TUU-hp-FyL" kind="showDetail" identifier="ProfileViewSegue" id="9KO-5F-iIj"/>
                         <segue destination="Cek-V1-Iv2" kind="showDetail" identifier="TransferViewSegue" id="Bh8-fQ-yAm"/>
+                        <segue destination="TUU-hp-FyL" kind="showDetail" identifier="ProfileViewSegue" id="eP6-oy-oHk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xJd-Gp-6WC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

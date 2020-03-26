@@ -15,7 +15,7 @@ class TransferFormViewController: UIViewController {
     @IBOutlet weak var Sender_address: UITextField!
     
     @IBOutlet weak var Recipient_address: UITextField!
-    
+
     @IBOutlet weak var Private_key: UITextField!
     
     override func viewDidLoad() {
@@ -30,7 +30,7 @@ class TransferFormViewController: UIViewController {
     
     @IBAction func confirmtransfer(_ sender: Any) {
         let transaction = Transaction(amount: Amount.text ?? "<no_amount>", address_sender: Sender_address.text ?? "<no_address>", address_recipient: Recipient_address.text ?? "<no_address>", private_key: Private_key.text ?? "<no_key>")
-        let postRequest = APIRequest(endpoint:"messages")
+        let postRequest = APIRequest(endpoint:"payment")
         postRequest.save(transaction, completion: { result in
             switch result{
             case .success(let transaction):

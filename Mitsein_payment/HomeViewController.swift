@@ -27,10 +27,6 @@ class HomeViewController: UIViewController {
     }
     */
 
-    @IBAction func Account(_ sender: UIButton) {
-        self.performSegue(withIdentifier:"ProfileViewSegue", sender: self)
-    }
-    
     @IBAction func Pay(_ sender: Any) {
         self.performSegue(withIdentifier:"PayViewSegue", sender: self)
     }
@@ -41,6 +37,11 @@ class HomeViewController: UIViewController {
 
     @IBAction func Transfer(_ sender: Any) {
         self.performSegue(withIdentifier:"TransferViewSegue", sender: self)
+    }
+    
+    
+    @IBAction func Profie(_ sender: Any) {
+        self.performSegue(withIdentifier:"ProfileViewSegue", sender: self)
     }
     
 }
