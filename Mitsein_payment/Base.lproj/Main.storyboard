@@ -364,6 +364,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N63-HT-ux2">
+                                <rect key="frame" x="174" y="526" width="192" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Private Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gp1-Ox-2Te">
                                 <rect key="frame" x="32" y="531" width="86" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -438,6 +444,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="Amount" destination="EOa-Tt-8pU" id="7tk-U8-apY"/>
+                        <outlet property="Private_key" destination="N63-HT-ux2" id="neR-hW-4Bd"/>
                         <outlet property="Recipient_address" destination="yi9-a6-1ds" id="gFS-r2-sjk"/>
                         <outlet property="Sender_address" destination="Sh1-Bm-Yxj" id="lgc-Ys-0tl"/>
                         <segue destination="H1F-a7-zwJ" kind="showDetail" identifier="HomeViewSegue" id="whj-y0-OVb"/>
